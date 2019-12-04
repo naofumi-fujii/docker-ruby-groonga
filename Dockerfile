@@ -1,4 +1,4 @@
-FROM ruby:2.6.4
+FROM ruby:2.6.4-stretch
 
 # Groonga(http://groonga.org/docs/install/debian.html)
 RUN echo "deb http://packages.groonga.org/debian/ jessie main" >> /etc/apt/sources.list.d/groonga.list \
